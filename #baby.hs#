@@ -1,0 +1,6 @@
+deleteÅµÅµmmodule Main (main) where
+
+main = putStrLn "Hello, world!"
+
+doubleMe x = x + x
+doubleUs x y = doubleMe x + doubleMe y
